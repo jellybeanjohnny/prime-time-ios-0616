@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4D55491D1BC8520E001E3D77 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D55491C1BC8520E001E3D77 /* Launch Screen.storyboard */; settings = {ASSET_TAGS = (); }; };
 		726811FB1923ECC5009F8F37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 726811FA1923ECC5009F8F37 /* Foundation.framework */; };
 		726811FD1923ECC5009F8F37 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 726811FC1923ECC5009F8F37 /* CoreGraphics.framework */; };
 		726811FF1923ECC5009F8F37 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 726811FE1923ECC5009F8F37 /* UIKit.framework */; };
@@ -22,6 +21,8 @@
 		72AE98651926914600C551EA /* FISPrimeViews2000Spec.m in Sources */ = {isa = PBXBuildFile; fileRef = 72AE98641926914600C551EA /* FISPrimeViews2000Spec.m */; };
 		72AE9867192691AC00C551EA /* FISPrimeViews5000Spec.m in Sources */ = {isa = PBXBuildFile; fileRef = 72AE9866192691AC00C551EA /* FISPrimeViews5000Spec.m */; };
 		72B2E3A31925766B00F9A3A3 /* FISPrimeViewsSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 72B2E3A21925766B00F9A3A3 /* FISPrimeViewsSpec.m */; };
+		C9CC21F01D1C8D3000FFC2A5 /* FISPrimeTimeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9CC21EF1D1C8D3000FFC2A5 /* FISPrimeTimeTableViewController.m */; };
+		C9CC21F21D1C90C900FFC2A5 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9CC21F11D1C90C900FFC2A5 /* Storyboard.storyboard */; };
 		FDB0429F6C734DBEA1492468 /* libPods-PrimeTimeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE1715E2E7914D189A1B7F53 /* libPods-PrimeTimeTests.a */; };
 /* End PBXBuildFile section */
 
@@ -36,7 +37,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4D55491C1BC8520E001E3D77 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		726811F71923ECC5009F8F37 /* PrimeTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrimeTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		726811FA1923ECC5009F8F37 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		726811FC1923ECC5009F8F37 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -57,6 +57,9 @@
 		72B2E3A21925766B00F9A3A3 /* FISPrimeViewsSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISPrimeViewsSpec.m; sourceTree = "<group>"; };
 		82DACE7EBD0B870343CC6AAD /* Pods-PrimeTimeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrimeTimeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PrimeTimeTests/Pods-PrimeTimeTests.release.xcconfig"; sourceTree = "<group>"; };
 		8F2D53C2CFB6D88462E8C54D /* Pods-PrimeTimeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrimeTimeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PrimeTimeTests/Pods-PrimeTimeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C9CC21EE1D1C8D3000FFC2A5 /* FISPrimeTimeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISPrimeTimeTableViewController.h; sourceTree = "<group>"; };
+		C9CC21EF1D1C8D3000FFC2A5 /* FISPrimeTimeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISPrimeTimeTableViewController.m; sourceTree = "<group>"; };
+		C9CC21F11D1C90C900FFC2A5 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Storyboard.storyboard; path = ../Storyboard.storyboard; sourceTree = "<group>"; };
 		EE1715E2E7914D189A1B7F53 /* libPods-PrimeTimeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PrimeTimeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -120,10 +123,12 @@
 		726812001923ECC5009F8F37 /* PrimeTime */ = {
 			isa = PBXGroup;
 			children = (
+				C9CC21F11D1C90C900FFC2A5 /* Storyboard.storyboard */,
+				C9CC21EE1D1C8D3000FFC2A5 /* FISPrimeTimeTableViewController.h */,
+				C9CC21EF1D1C8D3000FFC2A5 /* FISPrimeTimeTableViewController.m */,
 				726812091923ECC5009F8F37 /* FISAppDelegate.h */,
 				7268120A1923ECC5009F8F37 /* FISAppDelegate.m */,
 				7268120C1923ECC5009F8F37 /* Images.xcassets */,
-				4D55491C1BC8520E001E3D77 /* Launch Screen.storyboard */,
 				726812011923ECC5009F8F37 /* Supporting Files */,
 			);
 			path = PrimeTime;
@@ -247,7 +252,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D55491D1BC8520E001E3D77 /* Launch Screen.storyboard in Resources */,
+				C9CC21F21D1C90C900FFC2A5 /* Storyboard.storyboard in Resources */,
 				726812051923ECC5009F8F37 /* InfoPlist.strings in Resources */,
 				7268120D1923ECC5009F8F37 /* Images.xcassets in Resources */,
 			);
@@ -301,6 +306,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9CC21F01D1C8D3000FFC2A5 /* FISPrimeTimeTableViewController.m in Sources */,
 				726812071923ECC5009F8F37 /* main.m in Sources */,
 				7268120B1923ECC5009F8F37 /* FISAppDelegate.m in Sources */,
 			);
@@ -423,6 +429,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PrimeTime/PrimeTime-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "";
 				INFOPLIST_FILE = "PrimeTime/PrimeTime-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.FIS.${PRODUCT_NAME:rfc1034identifier}";
@@ -437,6 +444,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PrimeTime/PrimeTime-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "";
 				INFOPLIST_FILE = "PrimeTime/PrimeTime-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.FIS.${PRODUCT_NAME:rfc1034identifier}";
@@ -457,10 +465,7 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PrimeTime/PrimeTime-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
+				GCC_PREPROCESSOR_DEFINITIONS = PRIME5000;
 				INFOPLIST_FILE = "PrimeTimeTests/PrimeTimeTests-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.FIS.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -481,6 +486,7 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PrimeTime/PrimeTime-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = PRIME5000;
 				INFOPLIST_FILE = "PrimeTimeTests/PrimeTimeTests-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.FIS.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
